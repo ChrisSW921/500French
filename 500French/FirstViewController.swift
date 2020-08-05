@@ -9,7 +9,22 @@
 import UIKit
 
 class FirstViewController: UIViewController {
+    
+    @IBOutlet weak var FrenchWord: UILabel!
+    
+    @IBOutlet weak var EnglishWord: UILabel!
 
+    @IBAction func RevealButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func NextButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func PreviousButton(_ sender: UIButton) {
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
