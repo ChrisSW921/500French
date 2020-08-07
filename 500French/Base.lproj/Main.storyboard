@@ -28,7 +28,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="2Su-IC-NfI" firstAttribute="centerX" secondItem="Kv8-PL-th2" secondAttribute="centerX" id="Y5l-uh-D9V"/>
                                             <constraint firstItem="2Su-IC-NfI" firstAttribute="centerY" secondItem="Kv8-PL-th2" secondAttribute="centerY" id="fN8-Ye-Ich"/>
@@ -59,7 +59,7 @@
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" red="0.20802187920000001" green="0.36245298390000003" blue="0.23135268689999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.14117647059999999" green="0.28627450980000002" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstItem="jQ2-iV-wr5" firstAttribute="centerY" secondItem="80V-9z-s3r" secondAttribute="centerY" id="Gts-eX-4fm"/>
                                             <constraint firstItem="jQ2-iV-wr5" firstAttribute="centerX" secondItem="80V-9z-s3r" secondAttribute="centerX" id="R35-z8-pHz"/>
@@ -69,7 +69,7 @@
                                         <rect key="frame" x="0.0" y="512.66666666666663" width="414" height="256.33333333333337"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="19" translatesAutoresizingMaskIntoConstraints="NO" id="cQh-pg-FEC">
-                                                <rect key="frame" x="151.66666666666666" y="83" width="110.66666666666666" height="90.333333333333314"/>
+                                                <rect key="frame" x="151.66666666666666" y="66.666666666666742" width="110.66666666666666" height="123.33333333333331"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ENGLISH" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xmi-f5-Fpv">
                                                         <rect key="frame" x="0.0" y="0.0" width="110.66666666666667" height="32.333333333333336"/>
@@ -78,9 +78,9 @@
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbm-Rk-70C">
-                                                        <rect key="frame" x="23.333333333333343" y="51.333333333333371" width="64" height="39"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="22"/>
-                                                        <state key="normal" title="Reveal"/>
+                                                        <rect key="frame" x="36.333333333333343" y="51.333333333333258" width="38" height="72"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                                        <state key="normal" title="✺"/>
                                                         <connections>
                                                             <action selector="RevealButton:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="K8M-Mg-QUw"/>
                                                         </connections>
@@ -110,6 +110,9 @@
                     <connections>
                         <outlet property="EnglishWord" destination="xmi-f5-Fpv" id="Bdo-sC-9bB"/>
                         <outlet property="FrenchWord" destination="2Su-IC-NfI" id="XbC-lZ-2IF"/>
+                        <outlet property="NextButtonV" destination="xVC-JB-do5" id="ck6-cc-NTs"/>
+                        <outlet property="PreviousButtonV" destination="daM-La-KXe" id="LQV-Fy-G3L"/>
+                        <outlet property="RevealButtonV" destination="tbm-Rk-70C" id="pWw-vT-0Ud"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
